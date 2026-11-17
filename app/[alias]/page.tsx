@@ -1,6 +1,7 @@
 import { redirect, notFound } from "next/navigation";
 import getURL from "@/lib/getUrl";
 
+export const instant= false;
 export default async function AliasPage({
     params,
 }: {
