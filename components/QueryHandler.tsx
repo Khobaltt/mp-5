@@ -7,7 +7,7 @@ import { UrlProps } from "@/types";
 
 import createNewUrl from "@/lib/createNewUrl";
 
-const urlBase = "mp-5.vercel.app/";
+const urlBase = "mp-5-nine-steel.vercel.app/";
 
 const buttonDefault = "Shorten my URL!";
 const buttonFetching = "Creating your URL...";
