@@ -58,6 +58,7 @@ export default async function createNewUrl(
 
     if (!res.acknowledged) {
         throw new Error("DB insert failed");
+        p.status = -3;
     }
 
     // get id from DB

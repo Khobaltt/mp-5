@@ -105,7 +105,9 @@ export default function QueryHandler() {
                                     ? "This alias is already in use. Please try a different one."
                                     : displayUrl.status === -2
                                         ? "This URL is invalid."
-                                        : "Unknown error occurred."
+                                        : displayUrl.status === -3
+                                            ? "Could not connect to MongoDB."
+                                            : "Unknown error occurred."
                                 }
                             </p>
                         </>
